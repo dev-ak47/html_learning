@@ -1,11 +1,17 @@
-h1 {
-    color: rgb(235, 27, 27)
+#box {
+    background-color: blue;
+    color: white;
 }
 
-body {
-    background-color: rgb(20, 6, 6);
+/* .heading {
+    color: red;
+} */
+h1,
+h2,
+h3 {
+    color: red;
 }
 
 button {
-    background-color: whitesmoke;
+    background-color: green;
 }
