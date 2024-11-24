@@ -1,0 +1,182 @@
+/* 5a */
+.tahoma-font {
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 5b */
+.p {
+    font-family: Arial;
+}
+
+.offer {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.time {
+    margin-top: 0px;
+    color: orangered;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* 5c */
+.p {
+    font-family: Verdana;
+}
+
+.course-name {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 2px;
+}
+
+.level {
+    margin-top: 0px;
+    color: #606060;
+    font-size: 20px;
+}
+
+.course-description {
+    font-size: 20px;
+    width: 280px;
+}
+
+.start-button {
+    background-color: green;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* 5d */
+.shopping {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.work-help {
+    margin-top: 17px;
+    padding-left: 90px;
+    font-size: 19px;
+}
+
+.learn-more {
+    margin-top: 15px;
+    padding-left: 150px;
+    font-size: 20px;
+    color: rgb(4, 92, 199);
+}
+
+/* 5e */
+.new {
+    color: rgb(239, 161, 4);
+    font-size: 17px;
+    padding-left: 270px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.macbook-pro {
+    font-size: 31px;
+    padding-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.price {
+    color: #606060;
+    margin-left: 250px;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.supercharged {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 60px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.buy {
+    background-color: rgb(16, 98, 206);
+    border: 0px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 260px;
+    font-size: 15px;
+}
+
+/* 5f */
+.money {
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.usd {
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.profit {
+    color: green;
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.hours {
+    color: rgb(114, 110, 110);
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.loss {
+    color: rgba(164, 3, 3, 0.639);
+}
+
+/* 5g */
+.freecode {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.attherate {
+    color: grey;
+    font-weight: 100;
+}
+
+.guidelines {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.skills {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.chp_it {
+    color: rgb(0, 149, 255);
+}
