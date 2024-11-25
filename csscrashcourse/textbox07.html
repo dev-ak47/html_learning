@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Search Buttons</title>
     <style>
-        .search-button{
+        .search-button {
             padding-left: 15px;
             padding-right: 0px;
             padding-top: 12px;
@@ -14,26 +15,112 @@
             border-radius: 8px;
             border-style: solid;
             font-size: 16px;
-            border-width: 2px;
-            
+            border-width: 1px;
+
         }
-        .search-google{
+
+        .search-google {
             color: grey;
-            border-style: solid;
+            width: 100%;
+            max-width: 200px;
             border-color: rgb(200, 200, 200);
-            box-shadow: 20px;
-            padding-left: 15px;
+            padding-left: 20px;
             padding-right: 200px;
             padding-top: 12px;
             padding-bottom: 12px;
             border-radius: 20px;
             border: none;
+            box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.2);
+        }
+
+        .email {
+            color: rgb(91, 90, 90);
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .LinkedIn-signup {
+            width: 320px;
+            padding-top: 10px;
+            border-color: black;
+            border-width: 1.5px;
+            border-radius: 3px;
+            border-style: solid;
+        }
+
+        .policy {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #606060;
+        }
+
+        .button {
+            background-color: rgb(42, 118, 225);
+            color: white;
+            border: none;
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 15px;
+            border-radius: 60px;
+        }
+
+        .dp {
+            margin-top: 30px;
+            height: 60px;
+            width: 60px;
+            border-radius: 100px;
+            object-fit: cover;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .ques {
+            color: grey;
+            border: none;
+            margin-top: 30px;
+            width: 300px;
+            vertical-align: middle;
+            font-size: 17px;
+        }
+
+        .tweet-button {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            margin-top: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: 0px;
+            transition: box-shadow 0.15s;
+            vertical-align: top;
+        }
+
+        .tweet-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
         }
     </style>
 </head>
+
 <body>
     <input class="search-button" placeholder="Search">
     <input class="search-google" placeholder="Search Google or type a URL">
+    <p class="email">Email</p>
+    <input class="LinkedIn-signup">
+    <p class="policy">By clicking Agree & Join,you agree to the Privacy Policy.</p>
+    <button class="button">Agree & Join</button>
+    <br>
+    <img class="dp" src="../Thumbnails/cat.jpg">
+    <input type="text" class="ques" placeholder="What's happening?">
+    <button class="tweet-button">Tweet</button>
 
 </body>
+
 </html>
